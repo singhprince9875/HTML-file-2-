@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coder Thumbnail Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Favorite Coders</h1>
+    
+    <div class="coder" onclick="showDetails('coder1')">
+      <img src="coder1.jpg">
+      <h2>John Smith</h2>
+      <p>Software Engineer</p>
+      <div id="coder1" class="details">
+        <p>Skills: Java, Python, Node.js</p>
+        <p>Experience: 5 years</p>
+      </div>
+    </div>
+    
+    <div class="coder" onclick="showDetails('coder2')">
+      <img src="coder2.jpg">
+      <h2>Jane Doe</h2>
+      <p>Full Stack Developer</p>
+      <div id="coder2" class="details">
+        <p>Skills: React, Angular, Vue.js</p>
+        <p>Experience: 3 years</p>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
